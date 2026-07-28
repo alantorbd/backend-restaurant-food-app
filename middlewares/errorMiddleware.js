@@ -1,8 +1,17 @@
+import AppError from "../utils/appError.js";
+
 // eslint-disable-next-line no-unused-vars
-const globalErrorHandler = (error, req, res, next) => {
-  res.status(error.statusCode || 500).send({
+const globalErrorHandler = (err, req, res, next) => {
+  if (err instanceof AppError) {
+    return res.status(err.statusCode).json({
+      success: false,
+      message: err.message,
+    });
+  }
+
+  return res.status(500).json({
     success: false,
-    message: error.message || "Internal Server error",
+    message: "Internal Server Error",
   });
 };
 

@@ -8,6 +8,7 @@ import userRouter from "./routes/userRoutes.js";
 import resturantRouter from "./routes/resturantRoutes.js";
 import categoryRouter from "./routes/categoryRoutes.js";
 import foodRouter from "./routes/foodRoutes.js";
+import globalErrorHandler from "./middlewares/errorMiddleware.js";
 
 dotenv.config();
 connectDB();
@@ -25,6 +26,8 @@ app.use("/api/v1/users", userRouter);
 app.use("/api/v1/resturant", resturantRouter);
 app.use("/api/v1/category", categoryRouter);
 app.use("/api/v1/food", foodRouter);
+
+app.use(globalErrorHandler);
 
 app.get("/", (req, res) => {
   res.status(200).send("Hello world!");
