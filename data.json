@@ -1,0 +1,171 @@
+ {
+  "title": "Burger House",
+  "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+  "foods": [
+    {
+      "dishName": "Cheese Burger",
+      "dishPic": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+      "price": 350
+    },
+    {
+      "dishName": "Chicken Burger",
+      "dishPic": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+      "price": 320
+    },
+    {
+      "dishName": "French Fries",
+      "dishPic": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877",
+      "price": 180
+    }
+  ],
+  "time": "20-30 min",
+  "pickup": true,
+  "delivery": true,
+  "isOpen": true,
+  "logoUrl": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png",
+  "rating": 4.8,
+  "ratingCount": "2.1k",
+  "code": "BH001",
+  "coords": {
+    "id": "1",
+    "latitude": 23.8103,
+    "latitudeDelta": 0.0922,
+    "longitude": 90.4125,
+    "longitudeDelta": 0.0421,
+    "address": "Dhanmondi, Dhaka",
+    "title": "Burger House"
+  }
+
+
+
+]
+    "title": "Cheese Burger",
+    "description": "Juicy grilled beef patty with cheddar cheese, lettuce, tomato and special sauce.",
+    "price": 350,
+    "imageUrl": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+    "foodTags": "Burger, Fast Food",
+    "category": "Burger",
+    "code": "BG001",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 4.8,
+    "ratingCount": "230"
+  },
+  {
+    "title": "Chicken Burger",
+    "description": "Crispy fried chicken burger served with lettuce and mayonnaise.",
+    "price": 320,
+    "imageUrl": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+    "foodTags": "Burger, Chicken",
+    "category": "Burger",
+    "code": "BG002",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 4.6,
+    "ratingCount": "185"
+  },
+  {
+    "title": "Pepperoni Pizza",
+    "description": "Thin crust pizza topped with pepperoni and mozzarella cheese.",
+    "price": 650,
+    "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591",
+    "foodTags": "Pizza, Italian",
+    "category": "Pizza",
+    "code": "PZ001",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 4.9,
+    "ratingCount": "410"
+  },
+  {
+    "title": "Chicken Biryani",
+    "description": "Traditional aromatic basmati rice cooked with spicy chicken.",
+    "price": 280,
+    "imageUrl": "https://images.unsplash.com/photo-1701579231305-d84d8af9a3fd",
+    "foodTags": "Biryani, Rice",
+    "category": "Biryani",
+    "code": "BR001",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 4.9,
+    "ratingCount": "820"
+  },
+  {
+    "title": "Beef Kacchi",
+    "description": "Premium kacchi biryani with tender beef and fragrant rice.",
+    "price": 420,
+    "imageUrl": "https://images.unsplash.com/photo-1701579231305-d84d8af9a3fd",
+    "foodTags": "Kacchi, Beef",
+    "category": "Biryani",
+    "code": "BR002",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 5,
+    "ratingCount": "690"
+  },
+  {
+    "title": "French Fries",
+    "description": "Golden crispy potato fries served with tomato ketchup.",
+    "price": 180,
+    "imageUrl": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877",
+    "foodTags": "Snacks, Fries",
+    "category": "Sides",
+    "code": "SD001",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 4.5,
+    "ratingCount": "210"
+  },
+  {
+    "title": "Chicken Shawarma",
+    "description": "Middle Eastern wrap filled with grilled chicken and garlic sauce.",
+    "price": 250,
+    "imageUrl": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783",
+    "foodTags": "Shawarma, Wrap",
+    "category": "Fast Food",
+    "code": "SW001",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 4.7,
+    "ratingCount": "305"
+  },
+  {
+    "title": "Chocolate Milkshake",
+    "description": "Creamy chocolate milkshake topped with whipped cream.",
+    "price": 220,
+    "imageUrl": "https://images.unsplash.com/photo-1572490122747-3968b75cc699",
+    "foodTags": "Drink, Shake",
+    "category": "Beverage",
+    "code": "DR001",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 4.4,
+    "ratingCount": "140"
+  },
+  {
+    "title": "Grilled Chicken",
+    "description": "Healthy grilled chicken served with vegetables.",
+    "price": 450,
+    "imageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435",
+    "foodTags": "Healthy, Chicken",
+    "category": "Main Course",
+    "code": "MC001",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 4.8,
+    "ratingCount": "170"
+  },
+  {
+    "title": "Caesar Salad",
+    "description": "Fresh lettuce, parmesan cheese, croutons and Caesar dressing.",
+    "price": 300,
+    "imageUrl": "https://images.unsplash.com/photo-1546793665-c74683f339c1",
+    "foodTags": "Salad, Healthy",
+    "category": "Salad",
+    "code": "SL001",
+    "isAvailabe": true,
+    "resturant": "687cce39fc5b874cbd7e8ef1",
+    "rating": 4.3,
+    "ratingCount": "95"
+  }
+]
